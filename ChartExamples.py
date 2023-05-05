@@ -1,0 +1,14 @@
+# Примеры построения графиков
+
+import tkinter as tk
+
+# Создание главного окна 
+window = tk.Tk()
+window.geometry("550x550")
+window.title("Примеры построения графиков")
+
+# Запуск цикла mainloop
+window.mainloop()
+
+
+
