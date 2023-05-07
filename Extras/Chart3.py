@@ -7,7 +7,7 @@ def plot_chart():
     mean = 0
     sigma = 1
     x = np.arange(-5,5,.01)
-    f = np.exp(-np.square((x-mean)/sigma)/2)/(np.sqrt(2*np.pi)*sigma)
+    f = np.exp(-np.square((x-mean)/sigma)/2)/(np.sqrt(2*np.p1)*sigma)
     
     fig, ax = plt.subplots()
     ax.plot(x, f)

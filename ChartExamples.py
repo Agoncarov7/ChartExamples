@@ -6,6 +6,7 @@ import tkinter as tk
 import Chart1
 import Chart2
 
+
 # Функция закрытия программы
 def do_close():
     window.destroy()
@@ -24,14 +25,23 @@ btnChart1 = tk.Button(window, text="График 1", font = ('Tahoma', 10, 'bold
 btnChart1.place(x=40, y=115, width=100, height=30)
 
 lblChart1 = tk.Label(text = "График синуса MatPlotLib")
-lblChart1.place (x= 170, y=118)
+lblChart1.place (x= 170, y=120)
 
 # Добавление кнопки и метки для графика 2 
 btnChart1 = tk.Button(window, text="График 2", font = ('Tahoma', 10, 'bold'),command=Chart2.plot_chart)
 btnChart1.place(x=40, y=180, width=100, height=30)
 
 lblChart1 = tk.Label(text = "Нормальное распределение")
-lblChart1.place (x= 170, y=184)
+lblChart1.place (x= 170, y=185)
+
+# Добавление кнопки и метки для графика 3- нормальное распределение по уроку 
+btnChart1 = tk.Button(window, text="График 3", font = ('Tahoma', 10, 'bold'),command=Chart2.plot_chart)
+btnChart1.place(x=40, y=245, width=100, height=30)
+
+lblChart1 = tk.Label(text = "Нормальное распределение урок")
+lblChart1.place (x= 170, y=250)
+
+
 
 # Добавление кнопки закрытия программы
 btnClose = tk.Button(window, text= "Закрыть", font = ('Helvetica', 10, 'bold'), command=do_close)
