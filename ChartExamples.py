@@ -35,10 +35,10 @@ lblChart1 = tk.Label(text = "Нормальное распределение")
 lblChart1.place (x= 170, y=175)
 
 # Добавление кнопки и метки для графика 3 
-btnChart1 = tk.Button(window, text="График 3", font = ('Tahoma', 10, 'bold'),command=Chart2.plot_chart)
+btnChart1 = tk.Button(window, text="График 3", font = ('Tahoma', 10, 'bold'),command=Chart2.plot_chart2)
 btnChart1.place(x=40, y=220, width=100, height=30)
 
-lblChart1 = tk.Label(text = "Нормальное распределение 5.4")
+lblChart1 = tk.Label(text = "Нормальное распределение 3 графика")
 lblChart1.place (x= 170, y=225)
 
 # Добавление кнопки и метки для графика 4 
