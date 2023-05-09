@@ -5,6 +5,7 @@ import tkinter as tk
 # Импорт внешних файлов
 import Chart1
 import Chart2
+import Chart3
 
 
 # Функция закрытия программы
@@ -42,10 +43,10 @@ lblChart1 = tk.Label(text = "Нормальное распределение 3 �
 lblChart1.place (x= 170, y=225)
 
 # Добавление кнопки и метки для графика 4 
-btnChart1 = tk.Button(window, text="График 4", font = ('Tahoma', 10, 'bold'),command=Chart2.plot_chart)
+btnChart1 = tk.Button(window, text="График 4", font = ('Tahoma', 10, 'bold'),command=Chart3.plot_chart)
 btnChart1.place(x=40, y=270, width=100, height=30)
 
-lblChart1 = tk.Label(text = "Место для графика")
+lblChart1 = tk.Label(text = "Гистограмма Seaborn")
 lblChart1.place (x= 170, y=275)
 
 # Добавление кнопки и метки для графика 5 
